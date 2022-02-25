@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+h1{
+    font-weight: 900;
+    letter-spacing: 5px;
+    margin-bottom: 1rem;
+
+}
+h6{
+    margin-bottom: 3rem;
+    letter-spacing: 2px;
+}
+
+svg path:hover{
+    fill: rgb(134, 169, 204);
+    cursor: pointer;
+}
+
+.container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container h3{
+    margin-top: 1rem;
+}
