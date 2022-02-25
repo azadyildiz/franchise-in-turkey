@@ -8,7 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    height: 100vh;
+    height: auto;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -16,6 +16,7 @@ body{
     font-size: 18px;
 }
 h1{
+    font-size: 1.9rem;
     font-weight: 900;
     letter-spacing: 5px;
     margin-bottom: 1rem;
@@ -24,6 +25,9 @@ h1{
 h6{
     margin-bottom: 3rem;
     letter-spacing: 2px;
+}
+svg{
+    width: 80%;
 }
 
 svg path:hover{
